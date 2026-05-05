@@ -65,6 +65,13 @@
   "workbench.startupEditor": "none",   // What to show on startup
   "explorer.confirmDelete": false,     // Whether to ask confirmation when deleting files
 "breadcrumbs.enabled": false,
-"python-envs.defaultEnvManager": "ms-python.python:system", // Whether to show file path breadcrumbs
+"python-envs.defaultEnvManager": "ms-python.python:system",
+"python-envs.pythonProjects": [
+    {
+        "path": ".",
+        "envManager": "ms-python.python:venv",
+        "packageManager": "ms-python.python:pip"
+    }
+], // Whether to show file path breadcrumbs
 //   "editor.minimap.enabled": true       // Whether to show code minimap
 }
