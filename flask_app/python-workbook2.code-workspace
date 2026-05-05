@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../calculator"
+		}
+	],
+    "settings": {
+        "workbench.editorAssociations": {
+            "*.md": "vscode.markdown.preview.editor"
+        },
+        "ruff.enable": true,
+        "github.copilot.enable": {
+            "*": false
+        },
+        "terminal.integrated.copyOnSelection": true,
+        "git.confirmSync": false,
+        "explorer.confirmDelete": false,
+        "breadcrumbs.enabled": false,
+        "python-envs.defaultEnvManager": "ms-python.python:venv"
+    }
+}
